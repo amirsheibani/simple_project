@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="41px" viewBox="0 0 28 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>set_pick_location</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="set_pick_location" fill="white" fill-rule="nonzero">
+            <rect id="Rectangle" x="11" y="20" width="6" height="21" rx="3"></rect>
+            <path d="M14,0 C21.7319865,0 28,6.2680135 28,14 C28,21.7319865 21.7319865,28 14,28 C6.2680135,28 0,21.7319865 0,14 C0,6.2680135 6.2680135,0 14,0 Z M14,8 C10.6862915,8 8,10.6862915 8,14 C8,17.3137085 10.6862915,20 14,20 C17.3137085,20 20,17.3137085 20,14 C20,10.6862915 17.3137085,8 14,8 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,100 @@
+name: simple_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.1
+  package_info_plus: ^4.0.2
+  flutter_bloc: ^8.0.3
+  dio: ^5.2.1
+  retrofit: ^4.0.1
+  internet_connection_checker: ^1.0.0+1
+  injectable: ^2.1.2
+  get_it: ^7.6.0
+  freezed_annotation: ^2.2.0
+  flutter_svg: ^2.0.7
+  shimmer: ^3.0.0
+  modal_bottom_sheet: ^3.0.0-pre
+  pin_code_fields: ^7.4.0
+  flutter_keyboard_visibility: ^5.4.1
+  cached_network_image: ^3.2.3
+  flutter_map_marker_cluster: ^1.1.1
+  google_maps_flutter: ^2.3.1
+  flutter_google_places_hoc081098: ^1.2.0
+  google_api_headers: ^1.3.0
+  google_maps_webservice_ex: ^0.0.1+2
+  flutter_polyline_points: ^1.0.0
+  flutter_local_notifications: any
+  country_picker: ^2.0.20
+  permission_handler: ^10.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  go_router: ^8.1.0
+  pretty_dio_logger: ^1.3.1
+  json_annotation: ^4.8.1
+  syncfusion_flutter_datepicker: ^21.2.10
+  fluttertoast: ^8.0.8
+  page_view_dot_indicator: ^2.1.0
+  fl_country_code_picker: ^0.1.4
+  group_radio_button: ^1.3.0
+  url_launcher: ^6.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  freezed: ^2.3.5
+  build_runner: ^2.4.5
+  injectable_generator: ^2.1.6
+  retrofit_generator: ^7.0.1+1
+  json_serializable: ^6.7.0
+  hive_generator: ^2.0.0
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/svg/
+    - assets/images/icon/
+    - assets/images/png/
+  fonts:
+    - family: IranSans
+      fonts:
+        - asset: assets/font/iran_sans/IRANSans_bold.ttf
+          weight: 700
+        - asset: assets/font/iran_sans/IRANSans_regular.ttf
+          weight: 600
+        - asset: assets/font/iran_sans/IRANSans_medium.ttf
+          weight: 500
+        - asset: assets/font/iran_sans/IRANSans_light.ttf
+          weight: 300
+        - asset: assets/font/iran_sans/IRANSans_ultra_light.ttf
+          weight: 100
+
+    - family: Roboto
+      fonts:
+        - asset: assets/font/roboto/Roboto_bold.ttf
+          weight: 700
+        - asset: assets/font/roboto/Roboto_regular.ttf
+          weight: 600
+        - asset: assets/font/roboto/Roboto_medium.ttf
+          weight: 500
+        - asset: assets/font/roboto/Roboto_light.ttf
+          weight: 300
+        - asset: assets/font/roboto/Roboto_black.ttf
+          weight: 200
+        - asset: assets/font/roboto/Roboto_thin.ttf
+          weight: 100
+
+flutter_intl:
+  enabled: true
